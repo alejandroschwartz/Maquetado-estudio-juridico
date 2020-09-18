@@ -7,10 +7,15 @@
     <title>Estudio Jurídico</title>
 </head>
 <body>
+    <div class="icon" >
+        <i class="icon__menu" id="burger-menu" >
+            <img src="https://i.imgur.com/olKtZ4H.png" alt="">
+        </i>
+    </div>
     <header class="header" >
         <nav class="nav" >
             <figure class="nav__figure" >
-                <img class="nav__figure--img" src="images/logo_estudio.png" alt="Logo_estudio_jurídico">
+                <img class="nav__figure--img" src="https://i.imgur.com/af5Obgp.png" alt="Logo_estudio_jurídico">
             </figure>
             <ul class="nav__ul" >
                 <li class="nav__ul--li" ><a href="#inicio"> Inicio </a></li>
@@ -33,7 +38,7 @@
         <div class="services__container">
             <div class="services">
                 <figure class="service__figure">
-                    <img src="images/pevisional.png" alt="previcional" class="service__figure--img" />
+                    <img src="https://i.imgur.com/7GdlkHR.png" alt="previcional" class="service__figure--img" />
                 </figure>
                 <h3>Previcional</h3>
                 <p>- Jubilación nacional.</p>
@@ -45,7 +50,7 @@
             </div>
             <div class="services">
                 <figure class="service__figure">
-                    <img src="images/laboral.png" alt="laboral" class="service__figure--img" />
+                    <img src="https://i.imgur.com/eqg09sA.png" alt="laboral" class="service__figure--img" />
                 </figure>
                 <h3>Laboral</h3>
                 <p>- Accidentes laborales.</p>
@@ -55,7 +60,7 @@
             </div>
             <div class="services">
                 <figure class="service__figure">
-                    <img src="images/familia.png" alt="familia" class="service__figure--img" />
+                    <img src="https://i.imgur.com/NOy22el.png" alt="familia" class="service__figure--img" />
                 </figure>
                 <h3>Familia y sucesiones</h3>
                 <p>- Sucesiones.</p>
@@ -64,7 +69,7 @@
             </div>
             <div class="services">
                 <figure class="service__figure">
-                    <img src="images/comercial.png" alt="civil y comercial" class="service__figure--img" />
+                    <img src="https://i.imgur.com/F0GYNyE.png" alt="civil y comercial" class="service__figure--img" />
                 </figure>
                 <h3>Civil y comercial</h3>
                 <p>- Contratos en general.</p>
@@ -79,7 +84,7 @@
         <div class="publications__container">
             <div class="publications">
                 <figure class="publications__figure">
-                    <img src="images/tribunales.jpg" alt="previcional" class="publications__figure--img" />
+                    <img src="https://i.imgur.com/FFJzbaR.jpg" alt="previcional" class="publications__figure--img" />
                 </figure>
                 <div class="publications__text">                    
                     <h3>Previcional</h3>
@@ -88,7 +93,7 @@
             </div>
             <div class="publications">
                 <figure class="publications__figure">
-                    <img src="images/municipalidad.jpg" alt="laboral" class="publications__figure--img" />
+                    <img src="https://i.imgur.com/lc9qUCB.jpg" alt="laboral" class="publications__figure--img" />
                 </figure>
                 <div class="publications__text">                    
                     <h3>Laboral</h3>
@@ -97,7 +102,7 @@
             </div>
             <div class="publications">
                 <figure class="publications__figure">
-                    <img src="images/tribunales.jpg" alt="previcional" class="publications__figure--img" />
+                    <img src="https://i.imgur.com/FFJzbaR.jpg" alt="previcional" class="publications__figure--img" />
                 </figure>
                 <div class="publications__text">
                     <h3>Previcional</h3>
@@ -106,7 +111,7 @@
             </div>
             <div class="publications">
                 <figure class="publications__figure">
-                    <img src="images/municipalidad.jpg" alt="laboral" class="publications__figure--img" />
+                    <img src="https://i.imgur.com/lc9qUCB.jpg" alt="laboral" class="publications__figure--img" />
                 </figure>
                 <div class="publications__text">
                     <h3>Laboral</h3>
@@ -128,22 +133,46 @@
             </div>
         </div>
         <div class="media">
-            <figure class="media__figure">
-                <img src="images/facebook.png" alt="logo facebook" class="media__figure--img">
-            </figure>
-            <figure class="media__figure">
-                <img src="images/instagram.png" alt="logo instagram" class="media__figure--img">
-            </figure>
-            <figure class="media__figure">
-                <img src="images/twitter.png" alt="logo twitter" class="media__figure--img">
-            </figure>
-            <figure class="media__figure">
-                <img src="images/linkedin.png" alt="logo linkedin" class="media__figure--img">
-            </figure>
+            <a href="https://github.com/alejandroschwartz">
+                <figure class="media__figure">
+                    <img src="https://i.imgur.com/nun38pf.png" alt="logo github" class="media__figure--img">
+                </figure>
+            </a>
+            <a href="https://www.facebook.com/alejandromatias.schwartz">
+                <figure class="media__figure">
+                    <img src="https://i.imgur.com/LrY4rzy.png" alt="logo facebook" class="media__figure--img">
+                </figure>
+            </a>
+            <a href="https://www.instagram.com/vectocor/">
+                <figure class="media__figure">
+                    <img src="https://i.imgur.com/2ueAE18.png" alt="logo instagram" class="media__figure--img">
+                </figure>
+            </a>
+            <a href="https://www.linkedin.com/in/alejandro-matias-schwartz/">
+                <figure class="media__figure">
+                    <img src="https://i.imgur.com/pzUNd1c.png" alt="logo linkedin" class="media__figure--img">
+                </figure>
+            </a>
         </div>
         <div class="author">
             <p>Diseño web: <strong>Alejandro Schwartz</strong> <br />Cel: +54 0351 3022392 </p>
         </div>
     </footer>
+    <script>
+        const menu = document.querySelector(".nav__ul");
+        const burgerButton = document.querySelector("#burger-menu");
+        burgerButton.addEventListener("click", showHide);
+
+        console.log(menu);
+        console.log(burgerButton);
+
+        function showHide() {
+            if (menu.classList.contains("is-active")) {
+                menu.classList.remove("is-active");
+            } else {
+                menu.classList.add("is-active");
+            }
+        }
+    </script>
 </body>
 </html>
